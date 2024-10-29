@@ -10,16 +10,15 @@ int main () {
 //      printf ("The random number is %d\n", number) ;
         
         do { printf ("Guess the number between 1 to 100 : \n") ;
-             scanf ("%d", &guess) ;
-         if (guess > number) { printf ("Hint :- Think of Lower Number .\n") ;
+        scanf ("%d", &guess) ;
+        if (guess > number) { printf ("Hint :- Think of Lower Number .\n") ;
     }    
-         else if (guess < number) { printf ("Hint :- Think of Higher Number .\n") ; 
+        else if (guess < number) { printf ("Hint :- Think of Higher Number .\n") ; 
     }    
-         else { printf ("Your guess the number (%d) in %d Attempts !! \n" , number , nguess) ;
+        else { printf ("Your guess the number (%d) in %d Attempts !! \n" , number , nguess) ;
     }    
-         nguess++ ;
+        nguess++ ;
     }    
         while (guess !=number) ;
-            
-return 0 ;
+        return 0 ;
 }
