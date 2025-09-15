@@ -1,1 +1,1 @@
-The Code Repository of C Language with 2 project and 36 tiny programs .
+The Code Repository of C/C++ Language wih projects and several C and C++ tiny programs .
